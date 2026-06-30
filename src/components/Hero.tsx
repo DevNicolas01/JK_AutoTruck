@@ -6,35 +6,22 @@ export default function Hero() {
 
       <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_center,rgba(220,38,38,0.1)_0%,transparent_65%)]" />
 
-      <div className="relative max-w-6xl mx-auto px-6 py-24 flex flex-col lg:flex-row items-center lg:items-start gap-14">
+      <div className="relative max-w-6xl mx-auto px-6 py-24 flex flex-col lg:flex-row items-center gap-24 lg:gap-32">
 
-        {/* LOGO (ESQUERDA) */}
-        <div className="w-full lg:w-auto flex justify-center lg:justify-start">
-          <div className="bg-[#111] border border-white/10 rounded-3xl p-10 shadow-2xl text-left">
-            
-            <img 
-              src={Logo} 
-              alt="Logo" 
-              className="w-52 h-28 mb-5 object-contain" 
-            />
-
-            <div className="text-white font-black text-xl tracking-widest">
-              JK AUTO TRUCK
-            </div>
-
-            <div className="text-white/30 text-xs tracking-[4px] mt-1">
-              CHAPEAÇÃO & PINTURA
-            </div>
-
+        {/* ESQUERDA - LOGO */}
+        <div className="flex-shrink-0">
+          <div className="bg-[#111] border border-white/8 rounded-3xl p-10 shadow-2xl text-center">
+            <img src={Logo} alt="Logo" className="w-52 h-28 mx-auto mb-5" />
+            <div className="text-white font-black text-xl tracking-widest">JK AUTO TRUCK</div>
+            <div className="text-white/30 text-xs tracking-[4px] mt-1">CHAPEAÇÃO & PINTURA</div>
             <div className="mt-5 pt-4 border-t border-white/5 text-white/25 text-xs">
               Jacinto Machado, SC
             </div>
-
           </div>
         </div>
 
-        {/* CONTEÚDO (DIREITA) */}
-        <div className="flex-1 text-center lg:text-left">
+        {/* DIREITA - TEXTO */}
+        <div className="flex-1 text-center lg:text-left lg:ml-6">
 
           <div className="inline-flex items-center gap-2 bg-red-950/50 border border-red-900/40 text-red-400 text-xs font-medium px-4 py-1.5 rounded-full mb-6">
             <span className="w-1.5 h-1.5 bg-red-500 rounded-full animate-pulse" />
@@ -55,7 +42,7 @@ export default function Hero() {
           </p>
 
           <div className="flex flex-col sm:flex-row gap-3 justify-center lg:justify-start">
-            <a 
+            <a
               href="https://wa.me/5548999022070?text=Olá%20Kleiton,%20gostaria%20de%20um%20orçamento!"
               target="_blank"
               rel="noopener noreferrer"
@@ -64,7 +51,7 @@ export default function Hero() {
               💬 Falar no WhatsApp
             </a>
 
-            <a 
+            <a
               href="#servicos"
               className="bg-white/5 hover:bg-white/10 border border-white/10 text-white font-medium px-8 py-4 rounded-xl transition-all text-sm"
             >
