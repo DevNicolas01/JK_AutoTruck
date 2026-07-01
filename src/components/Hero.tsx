@@ -3,12 +3,11 @@ import Logo from "../assets/image.png";
 export default function Hero() {
   return (
     <section className="relative bg-[#0a0a0a] overflow-hidden">
-      {/* background */}
+
       <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_center,rgba(220,38,38,0.1)_0%,transparent_65%)]" />
 
       <div className="relative max-w-6xl mx-auto px-6 py-24 flex flex-col lg:flex-row items-center justify-between gap-16">
-        
-        {/* ESQUERDA */}
+
         <div className="w-full lg:w-auto flex justify-center lg:justify-start">
           <div className="bg-[#111] border border-white/10 rounded-3xl p-10 shadow-2xl text-center w-full max-w-sm">
             <img src={Logo} alt="Logo" className="w-48 h-28 mx-auto mb-5 object-contain" />
@@ -27,7 +26,6 @@ export default function Hero() {
           </div>
         </div>
 
-        {/* DIREITA */}
         <div className="w-full lg:max-w-xl text-center lg:text-left">
 
           <div className="inline-flex items-center gap-2 bg-red-950/50 border border-red-900/40 text-red-400 text-xs font-medium px-4 py-1.5 rounded-full mb-6">
@@ -50,7 +48,6 @@ export default function Hero() {
             revitalização de faróis, higienização de estofados e soldas em geral.
           </p>
 
-          {/* BOTÕES */}
           <div className="flex flex-col sm:flex-row gap-3 justify-center lg:justify-start">
             <a
               href="https://wa.me/5548999022070?text=Olá%20Kleiton,%20gostaria%20de%20um%20orçamento!"
@@ -69,7 +66,6 @@ export default function Hero() {
             </a>
           </div>
 
-          {/* MAPA */}
           <a
   href="https://www.google.com/maps?q=-29.042844,-49.7987379&z=17&hl=pt"
   target="_blank"
@@ -78,11 +74,9 @@ export default function Hero() {
 >
   <div className="flex items-center gap-4">
 
-    {/* ÍCONE COM PULSE (INDICA CLIQUE) */}
     <div className="relative flex h-11 w-11 items-center justify-center rounded-xl bg-gradient-to-br from-red-600 to-red-800 text-lg shadow-md shadow-red-900/40">
       📍
 
-      {/* PULSE ANIMATION */}
       <span className="absolute inline-flex h-full w-full animate-ping rounded-xl bg-red-500 opacity-30" />
     </div>
 
@@ -102,7 +96,6 @@ export default function Hero() {
 
   </div>
 
-  {/* CTA MAIS CLARO */}
   <div className="hidden sm:flex items-center gap-2 rounded-lg border border-red-500/30 px-3 py-2 text-xs font-semibold text-white transition-all duration-300 group-hover:bg-red-600 group-hover:border-red-600">
     Abrir localização →
   </div>

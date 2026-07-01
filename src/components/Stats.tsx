@@ -1,5 +1,5 @@
 const stats = [
-  { value: ' -- Anos ', label: 'de experiência' },
+  { value: ' +10 Anos ', label: 'de experiência' },
   { value: 'JM/SC', label: 'e região' },
   { value: 'Todos', label: 'tipos de veículos' },
   { value: 'Kleiton', label: 'atendimento direto' },

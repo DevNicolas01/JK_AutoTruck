@@ -4,7 +4,7 @@ export default function Contact() {
       id="contato"
       className="relative overflow-hidden bg-[#0a0a0a] py-20"
     >
-      {/* Fundo */}
+
       <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_center,rgba(220,38,38,0.08)_0%,transparent_65%)]" />
 
       <div className="relative mx-auto max-w-4xl px-6 text-center">
@@ -20,7 +20,6 @@ export default function Contact() {
           Atendemos Jacinto Machado e toda a região sul catarinense.
         </p>
 
-        {/* Informações */}
         <div className="grid grid-cols-1 gap-4 sm:grid-cols-3">
           {[
             { label: "WhatsApp", value: "(48) 99902-2070" },
@@ -42,8 +41,6 @@ export default function Contact() {
           ))}
         </div>
 
-
-        {/* Botão WhatsApp */}
         <a
           href="https://wa.me/5548999022070?text=Olá%20Kleiton,%20gostaria%20de%20um%20orçamento!"
           target="_blank"
