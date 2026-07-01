@@ -42,39 +42,6 @@ export default function Contact() {
           ))}
         </div>
 
-        {/* Card de localização */}
-        <a
-          href="https://www.google.com/maps?q=-29.042844,-49.7987379&z=17&hl=pt"
-          target="_blank"
-          rel="noopener noreferrer"
-          className="group mt-6 mb-10 flex items-center justify-between rounded-2xl border border-red-500/30 bg-gradient-to-r from-red-600/20 to-red-800/20 p-6 transition-all duration-300 hover:border-red-500 hover:bg-red-600/20 hover:shadow-xl hover:shadow-red-950/40"
-        >
-          <div className="flex items-center gap-5">
-            <div className="flex h-14 w-14 items-center justify-center rounded-xl bg-red-600 text-2xl">
-              📍
-            </div>
-
-            <div className="text-left">
-              <p className="text-xs font-semibold uppercase tracking-[0.2em] text-red-400">
-                Nossa localização
-              </p>
-
-              <h3 className="mt-1 text-lg font-bold text-white">
-                Venha nos visitar
-              </h3>
-
-              <p className="mt-1 text-sm text-white/60">
-                Clique para abrir a localização no Google Maps e traçar sua
-                rota.
-              </p>
-            </div>
-          </div>
-
-          <div className="hidden items-center gap-2 font-semibold text-red-400 transition-all group-hover:translate-x-1 group-hover:text-white md:flex">
-            Abrir mapa
-            <span className="text-lg">→</span>
-          </div>
-        </a>
 
         {/* Botão WhatsApp */}
         <a
